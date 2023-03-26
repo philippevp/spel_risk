@@ -83,11 +83,11 @@ class Gevecht:
                     aanvaller_doorvechten = input("Aanvaller, wil je verder doen [y] of stoppen [q]?")
                     if aanvaller_doorvechten == 'q':
                         break
-                    print("Volgende worp.")
-                    print("")
+                    print("Volgende worp.\n")
+
             
-            print("")
-            print(f"Spel is gedaan, winnaar is: {self.winnaar_naam()}")
+
+            print(f"\nSpel is gedaan, winnaar is: {self.winnaar_naam()}")
 
 
 
